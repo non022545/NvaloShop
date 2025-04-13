@@ -15,7 +15,7 @@ function ProductCard({ product }) {
         {/* ชื่อ */}
         <h1 className="text-2xl font-bold">{product.name}</h1>
         <h2 className="text-xl">Price: {product.price}</h2>
-        <button className='bg-pink-800 h-10 w-40 rounded-3xl shadow-xl text-white'>ดูรายละเอียด</button>
+        <button className='bg-pink-800 h-12 w-40 rounded-3xl shadow-xl text-white hover:bg-pink-900'>ดูรายละเอียด</button>
       </div>
     </div>
   )
