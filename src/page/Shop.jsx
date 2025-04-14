@@ -13,7 +13,7 @@ function Shop() {
     },
     {
       id: 2,
-      rank: 'Bronze',
+      rank: 'Bronze ',
       price: 2500,
       valoimg: 'https://images2.alphacoders.com/135/thumbbig-1356617.webp'
     },
