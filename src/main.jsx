@@ -23,7 +23,7 @@ const router = createBrowserRouter([
     element: <Contact />
   },
   {
-    path: '/product/:id',
+    path: '/Product/:id',
     element: <ProductDetail />
   }
 ])
@@ -33,6 +33,7 @@ createRoot(document.getElementById('root')).render(
     <RouterProvider router={router} />
   </StrictMode>,
 )
+
 
 
 

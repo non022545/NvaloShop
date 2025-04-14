@@ -206,12 +206,12 @@ function ProductDetail() {
                 <h2 className="text-3xl text-pink-800 font-bold mb-6">฿{product.price}</h2>
                 
                 <div className="mb-6">
-                  <h3 className="text-xl font-semibold mb-2">:</h3>
+                  <h3 className="text-xl font-semibold mb-2">รายละเอียด:</h3>
                   <p className="text-gray-700">{product.description}</p>
                 </div>
                 
                 <div className="mb-8">
-                  <h3 className="text-xl font-semibold mb-2">:</h3>
+                  <h3 className="text-xl font-semibold mb-2">คุณสมบัติ:</h3>
                   <ul className="list-disc pl-5">
                     {product.features && product.features.map((feature, index) => (
                       <li key={index} className="text-gray-700 mb-1">{feature}</li>
@@ -241,16 +241,15 @@ function ProductDetail() {
                       onClick={() => handlePaymentSelection('พร้อมเพย์')}
                       className="flex items-center justify-between w-full bg-blue-50 hover:bg-blue-100 p-4 rounded-lg border border-blue-200"
                     >
-                      <span className="text-lg font-medium">พร้อมเพย์</span>
-                      <span className="text-blue-600">→</span>
+                      <img src="https://www.thaiichr.org/wp-content/uploads/2022/11/%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B9%80%E0%B8%9E%E0%B8%A2%E0%B9%8C-1-768x384.png" alt="" />
+                
                     </button>
                     
                     <button 
                       onClick={() => handlePaymentSelection('ทวอเลท')}
                       className="flex items-center justify-between w-full bg-red-50 hover:bg-red-100 p-4 rounded-lg border border-red-200"
                     >
-                      <span className="text-lg font-medium">ทวอเลท</span>
-                      <span className="text-red-600">→</span>
+                      <img src="https://file.smilekrub.net/file/sk-blob/web/user/pic/vcs4mibravd9z0om37uouwobgjrghtl8" alt="" />
                     </button>
                   </div>
                   
@@ -273,7 +272,7 @@ function ProductDetail() {
                   
                   <div className="mb-6 flex justify-center">
                     <img 
-                      src="https://promptpay.io/0891234567/2000.png" 
+                      src="https://cdn.discordapp.com/attachments/1338166014814195762/1361287219574210670/image.png?ex=67fe3504&is=67fce384&hm=fcb83ca58e97830e1adedcf5fb885093e35997a64227ebb37816062cf6d03727&" 
                       alt="PromptPay QR Code" 
                       className="w-64 h-64 border rounded-lg"
                     />
