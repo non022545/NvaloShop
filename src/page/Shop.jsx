@@ -7,49 +7,49 @@ function Shop() {
   const productvalo = [
     {
       id: 1,
-      name: 'non',
+      rank: 'Gold',
       price: 2200,
       valoimg: 'https://images8.alphacoders.com/135/thumbbig-1356821.webp'
     },
     {
       id: 2,
-      name: 'nammm',
+      rank: 'Bronze',
       price: 2500,
       valoimg: 'https://images2.alphacoders.com/135/thumbbig-1356617.webp'
     },
     {
       id: 3,
-      name: 'topp',
+      rank: 'Diamond',
       price: 1000,
       valoimg: 'https://images.alphacoders.com/132/thumbbig-1327330.webp'
     },
     {
       id: 4,
-      name: 'annn',
+      rank: 'Platinum',
       price: 1200,
       valoimg: 'https://images4.alphacoders.com/132/thumbbig-1322722.webp'
     },
     {
       id: 5,
-      name: 'gameee',
+      rank: 'Iron',
       price: 1300,
       valoimg: 'https://images.alphacoders.com/134/thumbbig-1345035.webp'
     },
     {
       id: 6,
-      name: 'nooo',
+      rank: 'Silver',
       price: 1700,
       valoimg: 'https://images2.alphacoders.com/135/thumbbig-1356853.webp'
     },
     {
       id: 7,
-      name: 'mark',
+      rank: 'Immortal',
       price: 2000,
       valoimg: 'https://images.alphacoders.com/135/thumbbig-1356698.webp'
     },
     {
       id: 8,
-      name: 'james',
+      rank: 'ascendant',
       price: 1500,
       valoimg: 'https://images7.alphacoders.com/137/thumbbig-1370812.webp'
     }
