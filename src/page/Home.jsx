@@ -15,7 +15,7 @@ function Home() {
                             Welcome to <span className="text-pink-800">Nvaloshop</span>
                         </h1>
 
-                        <p className="text-lg max-w-2xl mb-8 text-gray-300">
+                        <p className="text-lg px-8 max-w-5xl mb-8 text-gray-300">
                             🎯 เว็บขายไอดี Valorant คุณภาพ ราคาประหยัด พร้อมสกินเทพ Rank สูง และบริการหลังการขายระดับเทพ 🔥
                         </p>
 

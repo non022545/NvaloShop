@@ -11,9 +11,9 @@ function Navbar() {
                         <p>NvaloShop</p>
                     </div>
                     <div className='flex text-sm md:text-2xl gap-x-3 md:gap-x-10'>
-                        <Link className='hover:text-pink-700 hover:text-3xl' to="/">Home</Link>
-                        <Link className='hover:text-pink-700 hover:text-3xl' to="/Shop">Shop</Link>
-                        <Link className='hover:text-pink-700 hover:text-3xl' to="/Contact">Contact</Link>
+                        <Link className='hover:text-pink-700 hover:text-lg md:hover:text-pink-700 md:hover:text-3xl' to="/">Home</Link>
+                        <Link className='hover:text-pink-700 hover:text-lg md:hover:text-pink-700 md:hover:text-3xl' to="/Shop">Shop</Link>
+                        <Link className='hover:text-pink-700 hover:text-lg md:hover:text-pink-700 md:hover:text-3xl' to="/Contact">Contact</Link>
                     </div>
                 </div>
             </nav>
