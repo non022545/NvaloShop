@@ -7,7 +7,7 @@ function Home() {
     return (
         <div>
             <Navbar />
-            <div className="h-auto min-h-screen bg-cover bg-center" style={{ backgroundImage: "url('https://images.alphacoders.com/136/thumb-1920-1360645.jpeg')" }}>
+            <div className="h-auto min-h-screen bg-cover bg-center" style={{ backgroundImage: "url('images/pagehome.jpeg')" }}>
 
                 <div className="h-auto min-h-screen bg-cover bg-center text-white px-6 py-12 flex flex-col items-center justify-center text-center">
                     <div className="flex flex-col items-center justify-center  bg-black/80 backdrop-blur-md h-96 w-auto rounded-xl shadow-lg text-white">

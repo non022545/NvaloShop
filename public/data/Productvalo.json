@@ -1,0 +1,67 @@
+[
+    {
+      "id": 1,
+      "rank": "Gold",
+      "price": 2200,
+      "valoimg": "https://images8.alphacoders.com/135/thumbbig-1356821.webp",
+      "description": "บัญชี Valorant แรงค์โกลด์ พร้อมสกินพรีเมียมและไอเทมจาก Battle Pass",
+      "features": ["เข้าถึงได้ทั้งหมด", "สามารถเปลี่ยนอีเมลได้", "มีสกินพรีเมียมหลายแบบ", "Battle Pass สมบูรณ์"]
+    },
+    {
+      "id": 2,
+      "rank": "Bronze",
+      "price": 2500,
+      "valoimg": "https://images2.alphacoders.com/135/thumbbig-1356617.webp",
+      "description": "บัญชี Valorant แรงค์บรอนซ์ พร้อมคอลเลกชันสกินหายาก",
+      "features": ["เข้าถึงได้ทั้งหมด", "สามารถเปลี่ยนอีเมลได้", "คอลเลกชันสกินหายาก", "ปลดล็อกเอเจนต์ครบ"]
+    },
+    {
+      "id": 3,
+      "rank": "Diamond",
+      "price": 1000,
+      "valoimg": "https://images.alphacoders.com/132/thumbbig-1327330.webp",
+      "description": "บัญชี Valorant แรงค์ไดมอนด์ สำหรับผู้เล่นสายแข่งขัน",
+      "features": ["เข้าถึงได้ทั้งหมด", "สามารถเปลี่ยนอีเมลได้", "MMR สูง", "มีสกินอาวุธพรีเมียม"]
+    },
+    {
+      "id": 4,
+      "rank": "Platinum",
+      "price": 1200,
+      "valoimg": "https://images4.alphacoders.com/132/thumbbig-1322722.webp",
+      "description": "บัญชี Valorant แรงค์แพลตตินัม พร้อมไอเทมสุดพิเศษ",
+      "features": ["เข้าถึงได้ทั้งหมด", "สามารถเปลี่ยนอีเมลได้", "มีสกินมีดสุดเอ็กซ์คลูซีฟ", "มีไอเทมลิมิเต็ด"]
+    },
+    {
+      "id": 5,
+      "rank": "Iron",
+      "price": 1300,
+      "valoimg": "https://images.alphacoders.com/134/thumbbig-1345035.webp",
+      "description": "บัญชี Valorant แรงค์ไอรอน พร้อมเซตเริ่มต้น",
+      "features": ["เข้าถึงได้ทั้งหมด", "สามารถเปลี่ยนอีเมลได้", "มีสกินพื้นฐาน", "รวมแพ็กเริ่มต้น"]
+    },
+    {
+      "id": 6,
+      "rank": "Silver",
+      "price": 1700,
+      "valoimg": "https://images2.alphacoders.com/135/thumbbig-1356853.webp",
+      "description": "บัญชี Valorant แรงค์ซิลเวอร์ พร้อมคอนเทนต์พรีเมียม",
+      "features": ["เข้าถึงได้ทั้งหมด", "สามารถเปลี่ยนอีเมลได้", "ปลดล็อกคอนเทนต์พรีเมียม", "มีสกินรุ่นพิเศษ"]
+    },
+    {
+      "id": 7,
+      "rank": "Immortal",
+      "price": 2000,
+      "valoimg": "https://images.alphacoders.com/135/thumbbig-1356698.webp",
+      "description": "บัญชี Valorant แรงค์อิมมอทอล สำหรับผู้เล่นสายจริงจัง",
+      "features": ["เข้าถึงได้ทั้งหมด", "สามารถเปลี่ยนอีเมลได้", "MMR สูงสุด", "มีสกินครบทุกแบบ"]
+    },
+    {
+      "id": 8,
+      "rank": "Ascendant",
+      "price": 1500,
+      "valoimg": "https://images7.alphacoders.com/137/thumbbig-1370812.webp",
+      "description": "บัญชี Valorant แรงค์แอสเซนแดนต์ พร้อมสิทธิพิเศษพรีเมียม",
+      "features": ["เข้าถึงได้ทั้งหมด", "สามารถเปลี่ยนอีเมลได้", "Battle Pass พรีเมียม", "มีสกินเอเจนต์สุดเอ็กซ์คลูซีฟ"]
+    }
+  ]
+  
