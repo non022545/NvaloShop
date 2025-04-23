@@ -9,7 +9,7 @@ function Shop() {
   const [loading, setLoading] = useState(true); // สถานะการโหลดข้อมูล
   const [error, setError] = useState(null); // สถานะข้อผิดพลาด
 
-  
+
   const fetchProduct = async () => {
     try {
       const response = await axios.get('/data/Productvalo.json');
@@ -26,7 +26,7 @@ function Shop() {
   }, []);  
 
   
-  if (loading) return <div>กำลังโหลด...</div>; // ขณะโหลดข้อมูล
+  if (loading) return <div className='bg-gradient-to-br from-pink-500 via-purple-600 to-gray-900 min-h-screen flex justify-center items-center'> <div className='text-5xl text-white'>กำลังโหลด...</div></div>; // ขณะโหลดข้อมูล
   if (error) return <div>{error}</div>; // ถ้ามีข้อผิดพลาด
 
   return (
