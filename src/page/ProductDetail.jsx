@@ -106,7 +106,7 @@ function ProductDetail() {
   return (
     <div>
       <Navbar />
-      <div className="min-h-screen bg-cover bg-center py-20" style={{ backgroundImage: "url('/images/detail.jpg')" }}>
+      <div className="min-h-screen bg-cover bg-center py-20" style={{ backgroundImage: "url('https://media.discordapp.net/attachments/1364538382939852800/1364538501777064066/detail.jpg?ex=680a0902&is=6808b782&hm=54518d5c257e2fc21a71e54b5ca3fa758b5ee1c3494dc4e14fd60a71c36163c8&=&format=webp&width=1768&height=834')" }}>
         <div className="container mx-auto px-4 pt-20">
           <div className="bg-white/80 backdrop-blur-md rounded-xl shadow-xl p-8 max-w-6xl mx-auto">
             <div className="flex flex-col md:flex-row gap-8">
@@ -159,13 +159,13 @@ function ProductDetail() {
                       onClick={() => handlePaymentSelection('พร้อมเพย์')}
                       className="flex items-center justify-between w-full bg-blue-50 hover:bg-blue-100 p-4 rounded-lg border border-blue-200"
                     >
-                      <img src="/images/promptpay.png" alt="" />
+                      <img src="https://media.discordapp.net/attachments/1364538382939852800/1364538503874216018/promptpay.png?ex=680a0903&is=6808b783&hm=39008942005ad031d34d75dc30c883ed21cd0575c272064b159216dfc3dadb46&=&format=webp&quality=lossless" alt="" />
                     </button>
                     <button
                       onClick={() => handlePaymentSelection('ทวอเลท')}
                       className="flex items-center justify-between w-full bg-red-50 hover:bg-red-100 p-4 rounded-lg border border-red-200"
                     >
-                      <img src="/images/true.png" alt="" />
+                      <img src="https://media.discordapp.net/attachments/1364538382939852800/1364538504557756466/true.png?ex=680a0903&is=6808b783&hm=fe9030b92a19045af9e3c02788daa08379b5ab7ac2a6e36ba33895f513f96296&=&format=webp&quality=lossless" alt="" />
                     </button>
                   </div>
                   <button
@@ -186,7 +186,7 @@ function ProductDetail() {
                   <p className="text-gray-600 mb-6">สแกน QR Code ด้วยแอพพร้อมเพย์</p>
                   <div className="mb-6 flex justify-center">
                     <img
-                      src="/images/qr_test.png"
+                      src="https://media.discordapp.net/attachments/1364538382939852800/1364538504150777936/qr_test.png?ex=680a0903&is=6808b783&hm=1014273957a01c98fdc54b4536551e1e637ffa3da1a23282601e6a13b75e0acf&=&format=webp&quality=lossless"
                       alt="PromptPay QR Code"
                       className="w-64 h-64 border rounded-lg"
                     />
@@ -218,7 +218,7 @@ function ProductDetail() {
                   <p className="text-gray-600 mb-6">สแกน QR Code ด้วยแอพทวอเลท</p>
                   <div className="mb-6 flex justify-center">
                     <img
-                      src="/images/qr_test.png"
+                      src="https://media.discordapp.net/attachments/1364538382939852800/1364538504150777936/qr_test.png?ex=680a0903&is=6808b783&hm=1014273957a01c98fdc54b4536551e1e637ffa3da1a23282601e6a13b75e0acf&=&format=webp&quality=lossless"
                       alt="True Wallet QR Code"
                       className="w-64 h-64 border rounded-lg"
                     />

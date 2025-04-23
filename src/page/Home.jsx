@@ -7,7 +7,7 @@ function Home() {
     return (
         <div>
             <Navbar />
-            <div className="h-auto min-h-screen bg-cover bg-center" style={{ backgroundImage: "url('images/pagehome.jpeg')" }}>
+            <div className="h-auto min-h-screen bg-cover bg-center" style={{ backgroundImage: "url('https://media.discordapp.net/attachments/1364538382939852800/1364538502120865875/pagehome.jpeg?ex=680a0902&is=6808b782&hm=b04f21d19162450c2f08dc045bbf42c47d27b7ccbc95dfb9ab819f7e63154fe0&=&format=webp&width=1535&height=863')" }}>
 
                 <div className="h-auto min-h-screen bg-cover bg-center text-white px-6 py-12 flex flex-col items-center justify-center text-center">
                     <div className="flex flex-col items-center justify-center  bg-black/80 backdrop-blur-md h-96 w-auto rounded-xl shadow-lg text-white">

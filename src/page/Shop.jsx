@@ -32,7 +32,7 @@ function Shop() {
   return (
     <div>
       <Navbar />
-      <div className="h-auto min-h-screen bg-cover bg-center" style={{ backgroundImage: "url('images/pageshop.png')" }}>
+      <div className="h-auto min-h-screen bg-cover bg-center" style={{ backgroundImage: "url('https://media.discordapp.net/attachments/1364538382939852800/1364538503160922113/pageshop.png?ex=680a0903&is=6808b783&hm=2b222d82661507118e6908f5b858b02a3ff8abb4b1da5aa51c535ecdd47152df&=&format=webp&quality=lossless&width=1535&height=863')" }}>
         <div className='pt-32 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 p-10 gap-10'>
           {products.map((product) => (
             <ProductCard key={product.id} product={product} />
