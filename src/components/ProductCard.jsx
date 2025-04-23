@@ -17,8 +17,8 @@ function ProductCard({ product }) {
         <h1 className="text-2xl ">แรงค์: {product?.rank}</h1>
         <h2 className="text-2xl">ราคา: {product?.price}</h2>
         <Link to={`/product/${product?.id}`}>
-          <button className='bg-pink-800 h-12 w-40 rounded-3xl shadow-xl text-white hover:bg-pink-900'>
-            ซื้อเลย
+          <button className='bg-green-800 h-12 w-40 rounded-3xl shadow-xl text-white hover:bg-green-950'>
+            ดูรายละเอียด
           </button>
         </Link>
       </div>

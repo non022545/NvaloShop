@@ -9,8 +9,8 @@ function ProductDetail() {
   const [product, setProduct] = useState(null); //// product เป็น null
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const [showPaymentOptions, setShowPaymentOptions] = useState(false); 
-  const [selectedPaymentMethod, setSelectedPaymentMethod] = useState(''); 
+  const [showPaymentOptions, setShowPaymentOptions] = useState(false);
+  const [selectedPaymentMethod, setSelectedPaymentMethod] = useState('');
   const [showPromptpayModal, setShowPromptpayModal] = useState(false);
   const [showTrueWalletModal, setShowTrueWalletModal] = useState(false);
 
@@ -109,7 +109,13 @@ function ProductDetail() {
       <div className="min-h-screen bg-cover bg-center py-20" style={{ backgroundImage: "url('https://media.discordapp.net/attachments/1364538382939852800/1364538501777064066/detail.jpg?ex=680a0902&is=6808b782&hm=54518d5c257e2fc21a71e54b5ca3fa758b5ee1c3494dc4e14fd60a71c36163c8&=&format=webp&width=1768&height=834')" }}>
         <div className="container mx-auto px-4 pt-20">
           <div className="bg-white/80 backdrop-blur-md rounded-xl shadow-xl p-8 max-w-6xl mx-auto">
-            <div className="flex flex-col md:flex-row gap-8">
+            <div className="flex justify-end">
+              <Link to="/Shop">
+                <button className='bg-gray-500 px-12 py-4 rounded-full shadow-2xl text-white text-xl hover:bg-gray-700'>กลับ</button>
+              </Link>
+            </div>
+
+            <div className="flex flex-col md:flex-row gap-8 mt-5">
               {/* Product Image */}
               <div className="md:w-1/2">
                 <img
@@ -140,7 +146,7 @@ function ProductDetail() {
 
                 <div className="mt-auto">
                   <button
-                    className="bg-pink-800 text-white py-3 px-8 rounded-full text-lg font-semibold hover:bg-pink-900 transition-colors w-full"
+                    className="bg-green-700 text-white py-3 px-8 rounded-full text-lg font-semibold hover:bg-green-900 transition-colors w-full"
                     onClick={handleBuyNow}
                   >
                     ซื้อเลย
@@ -195,16 +201,16 @@ function ProductDetail() {
                   <div className="flex gap-3">
                     <button
                       onClick={() => setShowPromptpayModal(false)}
-                      className="flex-1 py-2 px-4 border border-gray-300 rounded-lg text-white hover:bg-red-900 bg-red-700 rounded-3xl"
+                      className="flex-1 py-2 px-4 border border-gray-300  text-white hover:bg-red-900 bg-red-700 rounded-3xl"
                     >
                       ยกเลิก
                     </button>
-                    <button
+                    {/* <button
                       onClick={handleQRCodePaymentComplete}
                       className="flex-1 py-2 px-4 bg-green-600 rounded-lg text-white hover:bg-green-700"
                     >
                       ชำระแล้ว
-                    </button>
+                    </button> */}
                   </div>
                 </div>
               </div>
@@ -223,6 +229,7 @@ function ProductDetail() {
                       className="w-64 h-64 border rounded-lg"
                     />
                   </div>
+                  <p className="text-sm text-gray-500 mb-6">จำนวน: ฿{product.price}</p>
                   <div className="mb-6 p-4 bg-red-50 rounded-lg border border-red-200">
                     <p className="font-medium text-red-800">เบอร์ทวอเลท: 062-5232145</p>
                     <p className="text-sm text-red-700 mt-1">ชื่อผู้ใช้ทวอเลท: ชานนท์ อ้อมคำ</p>
@@ -230,16 +237,16 @@ function ProductDetail() {
                   <div className="flex gap-3">
                     <button
                       onClick={() => setShowTrueWalletModal(false)}
-                      className="flex-1 py-2 px-4 border border-gray-300 rounded-lg text-white hover:bg-red-900 bg-red-700 rounded-3xl"
+                      className="flex-1 py-2 px-4 border border-gray-300  text-white hover:bg-red-900 bg-red-700 rounded-3xl"
                     >
                       ยกเลิก
                     </button>
-                    <button
+                    {/* <button
                       onClick={handleTrueWalletPaymentComplete}
                       className="flex-1 py-2 px-4 bg-green-600 rounded-lg text-white hover:bg-green-700"
                     >
                       ชำระแล้ว
-                    </button>
+                    </button> */}
                   </div>
                 </div>
               </div>

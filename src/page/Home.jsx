@@ -21,7 +21,7 @@ function Home() {
 
 
                         <Link to="/shop">
-                            <button className="bg-pink-800 hover:bg-pink-900 text-white px-6 py-3 rounded-full text-lg shadow-lg transition-all">
+                            <button className="bg-green-800 hover:bg-green-950 text-white px-6 py-3 rounded-full text-lg shadow-lg transition-all">
                                 เข้าหน้าร้านค้า ➜
                             </button>
                         </Link>
